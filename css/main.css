@@ -9,6 +9,10 @@
     "header header"
     
 }
+.map{
+    width: 30%;
+    height: 30%;
+}
 div img {
     border: 5%;
     padding: 20px;
