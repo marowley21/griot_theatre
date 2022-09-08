@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid: template columns 5fr; 
+    grid-auto-rows: minmax(150) auto;
+    grid-template-rows: 200px;
+    grid-row-gap: 20px;
+    grid-column-gap: 100px;
+    grid-template-areas: 
+    "header header"
+    
+}
+div img {
+    border: 5%;
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    }
+
+ footer{
+    border: 55px seashell;
+    border-radius:#ddd;
+    padding: 30px;
+    width: 25%;
+    height: 5%;
+  }
+  
